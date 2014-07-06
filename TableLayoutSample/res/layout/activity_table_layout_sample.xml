@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1" >
+
+    <TableRow android:background="#003399" >
+
+        <TextView
+            android:layout_span="2"
+            android:layout_marginLeft="5dp"
+            android:text="@string/tv_title1"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_marginRight="5dp"
+            android:text="@string/tv_title2"
+            android:textColor="#FFFFFF" />
+        
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox android:text="@string/tv_ski" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/tv_dot" />
+        
+        <EditText android:inputType="number"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox android:text="@string/tv_snowboard" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/tv_dot" />
+        
+        <EditText android:inputType="number"/>
+
+    </TableRow>
+    
+    <TableRow>
+
+        <CheckBox android:text="@string/tv_golf" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/tv_dot" />
+        
+        <EditText android:inputType="number"/>
+
+    </TableRow>
+    
+    <TableRow>
+
+        <CheckBox android:text="@string/tv_swimming" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/tv_dot" />
+        
+        <EditText android:inputType="number"/>
+
+    </TableRow>
+    
+ 
+</TableLayout>
